@@ -29,19 +29,21 @@ mail - blue div with mail icon<br/>
 
   tempAlert("Message You want to display",3000,"success"); <br/>// displays the message in bottom right corner for 3 seconds in green div
 
+<img src="https://cloud.githubusercontent.com/assets/16679120/12774953/f9bcaa80-ca17-11e5-9b81-13ad3f89dca9.png"/>
 <h3>Notification Which Closes on click</h3>
 <b>Sample Code</b>
 
   click2close("Message You want to display","info");<br/> // displays the message in bottom right corner for 3 seconds in blue div
-  
+  <img src="https://cloud.githubusercontent.com/assets/16679120/12775069/1a20b068-ca19-11e5-99e3-128ce34cbdd6.png"/>
 
-<h3>Notification instead of alert</h3>
+<h3>Notification instead of javascript alert</h3>
 <b>Sample Code</b>
 
-  messenger("Message You want to display","info"); <br/>// displays the message in middle of the div in blue div with ok button. User must click ok to close the div
+  messenger("Message You want to display","danger"); <br/>// displays the message in middle of the div in blue div with ok button. User must click ok to close the div
   
+  <img src="https://cloud.githubusercontent.com/assets/16679120/12777239/94351064-ca29-11e5-9228-a27966c6e3b9.png"/>
 
-<h3>Notification instead of confirm</h3>
+<h3>Notification instead of javascript confirm</h3>
 <b>Sample Code</b>
 
   confirmer("Are you sure want to delete selected?", function (e){<br/>
@@ -55,3 +57,4 @@ mail - blue div with mail icon<br/>
                             }<br/>
                     });<br/>
   
+<img src="https://cloud.githubusercontent.com/assets/16679120/12777290/050239ac-ca2a-11e5-8ce8-53f961357eab.png"/>
